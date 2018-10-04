@@ -1,6 +1,6 @@
 {
   "name": "mapbox-gl-dual-scale-control",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dual scalebar (metric + imperial) control for Mapbox GL",
   "main": "dist/mapbox-gl-dual-scale-control.js",
   "author": "Kristofor Carle <kris@maphubs.com>",

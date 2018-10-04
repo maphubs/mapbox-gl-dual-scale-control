@@ -62,7 +62,7 @@ const util = require('mapbox-gl/src/util/util');
     }
 }
 
-module.exports = ScaleControl;
+module.exports = DualScaleControl;
 
 
 function updatePosition(map, container, lngLat) {
