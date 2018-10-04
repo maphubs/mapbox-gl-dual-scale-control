@@ -1,6 +1,6 @@
 {
   "name": "mapbox-gl-dual-scale-control",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Dual scalebar (metric + imperial) control for Mapbox GL",
   "main": "dist/mapbox-gl-dual-scale-control.js",
   "author": "Kristofor Carle <kris@maphubs.com>",
@@ -33,11 +33,7 @@
     "build-dev": "mkdir -p dist && browserify src/index.js --debug --ignore-transform unassertify --standalone DualScaleControl > dist/mapbox-gl-dual-scale-control-dev.js",
     "build-min": "mkdir -p dist && browserify src/index.js --debug --plugin [minifyify --map mapbox-gl-dual-scale-control.js.map --output dist/mapbox-gl-dual-scale-control.js.map] --standalone DualScaleControl | derequire > dist/mapbox-gl-dual-scale-control.js"
   },
-  "dependencies": {
-    "@mapbox/sphericalmercator": "^1.0.5",
-    "gl": "^4.0.3",
-    "jsdom": "^9.11.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "mapbox-gl": ">=0.37.0"
   },
