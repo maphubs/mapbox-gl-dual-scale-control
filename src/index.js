@@ -66,8 +66,8 @@ module.exports = DualScaleControl;
 
 
 function updatePosition(map, container, lngLat) {
-  const lat = lngLat.lat.toPrecision(4);
-  const lng = lngLat.lng.toPrecision(4);
+  const lat = lngLat.lat.toFixed(6);
+  const lng = lngLat.lng.toFixed(6);
   container.innerHTML = `${lat}, ${lng}`;
 }
 
